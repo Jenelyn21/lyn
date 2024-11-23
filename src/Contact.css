@@ -1,0 +1,34 @@
+/* Wrapper to set up the layout */
+.contact-wrapper {
+    position: absolute; /* Position the contact-wrapper */
+    bottom: 20px; /* Position it 20px from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure the contact box is fully centered */
+    background-image: url('/pink2.jpg'); /* Background image */
+    background-size: cover;  /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+    width: 100%; /* Full width of the screen */
+    max-width: 600px; /* Max width for the contact info box */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the contact box */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+  }
+  
+  .contact-info h3 {
+    font-size: 2rem;
+    color: #4e032d; /* Heading color */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    font-size: 1.2rem;
+    color: #333; /* Text color */
+    margin: 5px 0;
+  }
+  
+  .contact-details strong {
+    color: #a5156e; /* Label color */
+  }
+  
+  
